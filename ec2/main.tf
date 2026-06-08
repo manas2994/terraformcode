@@ -1,4 +1,4 @@
-terraform {
+aterraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   profile = "default"
-  region  = "us-east-2"
+  region  = "us-central-2"
 }
 
 resource "aws_instance" "app_server" {
